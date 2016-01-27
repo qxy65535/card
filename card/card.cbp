@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="card" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/card" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/card" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../../../../codeblocks/wxWidgets-3.0.2/include" />
+			<Add directory="../../../../codeblocks/wxWidgets-3.0.2/lib/gcc_dll/mswud" />
+			<Add directory="../../../../codeblocks/wxWidgets-3.0.2/lib/gcc_dll/mswu" />
+		</Compiler>
+		<Linker>
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxexpat.a" />
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxexpatd.a" />
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxmsw30u.a" />
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxmsw30u_gl.a" />
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxmsw30ud.a" />
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxmsw30ud_gl.a" />
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxregexu.a" />
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxregexud.a" />
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxscintilla.a" />
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxscintillad.a" />
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxzlib.a" />
+			<Add library="..\..\..\..\codeblocks\wxWidgets-3.0.2\lib\gcc_dll\libwxzlibd.a" />
+		</Linker>
+		<Unit filename="control.cpp" />
+		<Unit filename="control.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.h" />
+		<Unit filename="rank.cpp" />
+		<Unit filename="rank.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
